@@ -1,0 +1,13 @@
+.end-img{
+     width: 200px;
+     margin: 20px auto;
+}
+
+.end-img--animate{
+     animation: pulse 1.5s infinite ease;
+}
+
+@keyframes pulse {
+     0%, 100% {width: 200px;}
+     50%  {width: 250px;}
+}
